@@ -12,7 +12,7 @@ body{
 }
 .container{
     padding:50px;
-    box-shadow: 3px 3px 10px #025e83;
+    box-shadow: 1px 5px 15px #025e83;
     border-radius: 6px;
     background-color: whitesmoke;
     font-family: 'Poppins', sans-serif;
@@ -38,6 +38,9 @@ input{
 input:active{
     border:1px solid #e8e8e8;
 }
+input:focus {
+    outline:none;
+  }
 button{
     padding:15px 30px;
     color:white;
@@ -59,4 +62,7 @@ select{
     border:1px solid #e8e8e8;
     margin-top:5px;
     margin-bottom:10px;
+}
+select:focus{
+    outline:none;
 }
