@@ -83,7 +83,7 @@ select:focus{
     }
     
     .container {
-    padding: 20px;
+    padding: 40px;
     }
     
     input,
@@ -97,7 +97,7 @@ select:focus{
     }
     
     button {
-    padding: 12px 24px;
+    padding: 15px 30px;
     height: 40px;
     }
     
